@@ -1,4 +1,4 @@
-/* Set the background image */
+
 body {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
     height: 100vh;
 }
 
-/* Style for the login container */
+
 .login-container {
     display: flex;
     justify-content: center;
@@ -20,7 +20,7 @@ body {
     height: 100%;
 }
 
-/* Style for the login box */
+
 .login-box {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 20px;
@@ -35,7 +35,7 @@ body {
     color: #333;
 }
 
-/* Style for form inputs */
+
 .input-field {
     margin-bottom: 15px;
     text-align: left;

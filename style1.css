@@ -1,4 +1,4 @@
-/* General body styles */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -6,7 +6,7 @@ body {
     background-color: #f4f4f4;
 }
 
-/* Product container */
+
 .product-container {
     display: flex;
     flex-direction: row;
@@ -19,7 +19,7 @@ body {
     border-radius: 10px;
 }
 
-/* Product image */
+
 .product-image img {
     width: 300px;
     height: auto;
@@ -27,25 +27,25 @@ body {
     margin-right: 20px;
 }
 
-/* Product details */
+
 .product-details {
     max-width: 600px;
 }
 
-/* Product title */
+
 .product-details h1 {
     font-size: 28px;
     margin-bottom: 10px;
 }
 
-/* Description */
+
 .product-details .description {
     font-size: 16px;
     color: #555;
     margin-bottom: 20px;
 }
 
-/* Price comparison section */
+
 .price-comparison {
     margin-bottom: 20px;
 }
@@ -55,7 +55,7 @@ body {
     margin-bottom: 10px;
 }
 
-/* Table styling */
+
 table {
     width: 100%;
     border-collapse: collapse;
@@ -82,7 +82,7 @@ table a:hover {
     text-decoration: underline;
 }
 
-/* Meta information */
+
 .product-meta {
     font-size: 14px;
     color: #555;

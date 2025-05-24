@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Price Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .category {
+            margin-bottom: 40px;
+        }
+        .category h2 {
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .product h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .price {
+            font-size: 16px;
+            color: #333;
+            margin-bottom: 10px;
+        }
+        .price-comparison {
+            list-style: none;
+            padding: 0;
+        }
+        .price-comparison li {
+            margin-bottom: 8px;
+        }
+        .price-comparison a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .price-comparison a:hover {
+            text-decoration: underline;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <div class="container">
+        <!-- Category 1: Electronics -->
+        <div class="category">
+            <h2>CATEGORIES </h2>
+            <h2>Electronics</h2>
+            <div class="product-grid">
+                
+                <!-- Product 1: Samsung S23 -->
+                <div class="product">
+                    <img src="https://images-cdn.ubuy.co.in/6585b9d02b39531ef57025cc-samsung-galaxy-s22-5g-sm-s901bds-128gb.jpg" alt="Samsung S23">
+                    <h3>Samsung S23</h3>
+                    <p class="description">This is a great product that comes with amazing features. It's perfect for all your needs.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>₹31,474</td>
+                                <td><a href="https://www.amazon.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>Flipkart</td>
+                                <td>₹36,999</td>
+                                <td><a href="https://www.flipkart.com">View on Flipkart</a></td>
+                            </tr>
+                            <tr>
+                                <td>Samsung</td>
+                                <td>₹29,999</td>
+                                <td><a href="https://www.samsung.com">View on Samsung</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+
+                <!-- Product 2: iPhone 15 Pro Max -->
+                <div class="product">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSvhnoGmC_wONAN4Pb3F52ogJ99salypeH_wFJlu7HODcWgyihEwBIQDGV03qfAI9Xe1OQETRy_OewRKwMnl-hD14zZol3dK4sL86IDXJlag8GS2eE74Gkn" alt="iPhone 15 Pro Max">
+                    <h3>iPhone 15 Pro Max</h3>
+                    <p class="description">This is a premium phone with advanced features and performance.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>₹1,30,900</td>
+                                <td><a href="https://www.amazon.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>Apple</td>
+                                <td>₹69,900</td>
+                                <td><a href="https://www.apple.com">View on Apple</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+
+                <!-- Product 3: Vivo V29 5G -->
+                <div class="product">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSyygi5LPzrhVBof4RRH-CaiFgZenij8cwQnjc832Luf_ELTN94DxbZeeoqiAY9NAimDI5cwqUy0Ra_zIdQJ5R9c-ugtQw7EOZ2BtDPr_70" alt="Vivo V29 5G">
+                    <h3>Vivo V29 5G (12GB RAM, 256GB, Majestic Red)</h3>
+                    <p class="description">Power-packed performance with advanced 5G technology.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>₹39,900</td>
+                                <td><a href="https://www.amazon.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>Flipkart</td>
+                                <td>₹37,780</td>
+                                <td><a href="https://www.flipkart.com">View on Flipkart</a></td>
+                            </tr>
+                            <tr>
+                                <td>Croma</td>
+                                <td>₹30,499</td>
+                                <td><a href="https://www.croma.com">View on Croma</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              
+
+                <!-- Product 4: Samsung Galaxy Z Flip6 5G -->
+                <div class="product">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTzJts5Gy2xkZYx9GMGcIcC2_4KcOnUgPMbBYqAqJ8nUXj51YzEnUutWrlaoQgTHzWk6u7FgB-QCrLt9ajNF9i5yn_bOYuGGt42KH1GB4w" alt="Samsung Galaxy Z Flip6 5G">
+                    <h3>Samsung Galaxy Z Flip6 5G (Mint, 12GB RAM, 256GB Storage)</h3>
+                    <p class="description">A stylish, foldable smartphone packed with features.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>₹1,09,988</td>
+                                <td><a href="https://www.amazon.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>Flipkart</td>
+                                <td>₹98,999</td>
+                                <td><a href="https://www.flipkart.com">View on Flipkart</a></td>
+                            </tr>
+                            <tr>
+                                <td>Samsung</td>
+                                <td>₹99,999</td>
+                                <td><a href="https://www.samsung.com">View on Samsung</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              
+
+            </div>
+        </div>
+
+        <!-- Category 2: Shoes -->
+        <div class="category">
+            <h2>Shoes</h2>
+            <div class="product-grid">
+                
+                <!-- Product 1: Adidas Clinch-X M -->
+                <div class="product">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcQYJVFUAxIBS0_YK1R2JzOm9SqHaw23jXRQkZ4L_DSLW6fGk5GESfbqxtQVzvr53-QIj4fAuLiLxo7ItktiZlgZ8uVQ11CsHjFa1cd0779xvCHqK719EpNG" alt="Adidas Clinch-X M">
+                    <h3>Adidas Clinch-X M Running Shoes</h3>
+                    <p class="description">Comfortable and durable running shoes perfect for athletes.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>₹1,437</td>
+                                <td><a href="https://www.amazon.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>Flipkart</td>
+                                <td>₹1,565</td>
+                                <td><a href="https://www.flipkart.com">View on Flipkart</a></td>
+                            </tr>
+                            <tr>
+                                <td>ajio</td>
+                                <td>₹2,024</td>
+                                <td><a href="https://www.ajio.com">View on ajio</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+
+                <div class="product">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSr4DsDLxLwokDvahxcEa7byk2v6-2ioXIPz89jjkODpIQWNuAYS9ZbGJrEWb7LJ5iEfjcje65WsI9VPiQPymgU04yc-PXDgt0RPasW-X46hjKVOIjdb2h2tA" alt="adidas Men Trainers Breaknet 2.0 Shoes">
+                    <h3>Adidas Mens Adivat M core Black Running Shoes</h3>
+                    <p class="description">Comfortable and durable running shoes perfect for athletes.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>₹2,465</td>
+                                <td><a href="https://www.amazon.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>adidas</td>
+                                <td>₹5,999</td>
+                                <td><a href="https://www.adidas.com">View on Flipkart</a></td>
+                            </tr>
+                            <tr>
+                                <td>myntra</td>
+                                <td>₹2,999</td>
+                                <td><a href="https://www.myntra.com">View on myntra</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+                <div class="product">
+        <div class="product-details">
+        <div class="product-details">
+            <img src="https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcTgpz8BCxG7prwrkxkkXVn0eRiy5SVZ6GVEI3Yi4cu68_pLYTVU1BYYN7wUJrcVyuqfCqTkzDahm6OvfAtuQnEvjPQEtkvwsu_q6IvXd22RM8y0Loz_N64b" alt="adidas Rayrun M Running Shoes For Men">
+                    <h3>adidas Rayrun M Running Shoes For Men</h3>
+                    <p class="description">Comfortable and durable running shoes perfect for athletes.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>nykaa man</td>
+                                <td>₹1,440</td>
+                                <td><a href="https://www.nykaaman.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>adidas</td>
+                                <td>₹1,750</td>
+                                <td><a href="https://www.adidas.com">View on Flipkart</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

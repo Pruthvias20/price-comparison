@@ -1,0 +1,93 @@
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Product container */
+.product-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    margin: 50px;
+    background-color: #fff;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+/* Product image */
+.product-image img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+/* Product details */
+.product-details {
+    max-width: 600px;
+}
+
+/* Product title */
+.product-details h1 {
+    font-size: 28px;
+    margin-bottom: 10px;
+}
+
+/* Description */
+.product-details .description {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+/* Price comparison section */
+.price-comparison {
+    margin-bottom: 20px;
+}
+
+.price-comparison h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    text-align: left;
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-weight: bold;
+}
+
+table a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+table a:hover {
+    text-decoration: underline;
+}
+
+/* Meta information */
+.product-meta {
+    font-size: 14px;
+    color: #555;
+}
+
+.product-meta p {
+    margin: 5px 0;
+}

@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronics - Price Comparison</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .product h3 {
+            font-size: 18px;
+            margin-bottom: 10px;
+        }
+        .price-comparison {
+            list-style: none;
+            padding: 0;
+        }
+        .price-comparison a {
+            text-decoration: none;
+            color: #007BFF;
+        }
+        .price-comparison a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- Category 1: Electronics -->
+        <div class="category">
+            <h2>Electronics</h2>
+            <div class="product-grid">
+                
+                <!-- Product 1: Samsung S23 -->
+                <div class="product">
+                    <img src="https://images-cdn.ubuy.co.in/6585b9d02b39531ef57025cc-samsung-galaxy-s22-5g-sm-s901bds-128gb.jpg" alt="Samsung S23">
+                    <h3>Samsung S23</h3>
+                    <p class="description">This is a great product that comes with amazing features. It's perfect for all your needs.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>₹31,474</td>
+                                <td><a href="https://www.amazon.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>Flipkart</td>
+                                <td>₹36,999</td>
+                                <td><a href="https://www.flipkart.com">View on Flipkart</a></td>
+                            </tr>
+                            <tr>
+                                <td>Samsung</td>
+                                <td>₹29,999</td>
+                                <td><a href="https://www.samsung.com">View on Samsung</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+
+                <!-- Product 2: iPhone 15 Pro Max -->
+                <div class="product">
+                    <img src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSvhnoGmC_wONAN4Pb3F52ogJ99salypeH_wFJlu7HODcWgyihEwBIQDGV03qfAI9Xe1OQETRy_OewRKwMnl-hD14zZol3dK4sL86IDXJlag8GS2eE74Gkn" alt="iPhone 15 Pro Max">
+                    <h3>iPhone 15 Pro Max</h3>
+                    <p class="description">This is a premium phone with advanced features and performance.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>₹1,30,900</td>
+                                <td><a href="https://www.amazon.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>Apple</td>
+                                <td>₹69,900</td>
+                                <td><a href="https://www.apple.com">View on Apple</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                
+
+                <!-- Product 3: Vivo V29 5G -->
+                <div class="product">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSyygi5LPzrhVBof4RRH-CaiFgZenij8cwQnjc832Luf_ELTN94DxbZeeoqiAY9NAimDI5cwqUy0Ra_zIdQJ5R9c-ugtQw7EOZ2BtDPr_70" alt="Vivo V29 5G">
+                    <h3>Vivo V29 5G (12GB RAM, 256GB, Majestic Red)</h3>
+                    <p class="description">Power-packed performance with advanced 5G technology.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>₹39,900</td>
+                                <td><a href="https://www.amazon.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>Flipkart</td>
+                                <td>₹37,780</td>
+                                <td><a href="https://www.flipkart.com">View on Flipkart</a></td>
+                            </tr>
+                            <tr>
+                                <td>Croma</td>
+                                <td>₹30,499</td>
+                                <td><a href="https://www.croma.com">View on Croma</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              
+
+                <!-- Product 4: Samsung Galaxy Z Flip6 5G -->
+                <div class="product">
+                    <img src="https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTzJts5Gy2xkZYx9GMGcIcC2_4KcOnUgPMbBYqAqJ8nUXj51YzEnUutWrlaoQgTHzWk6u7FgB-QCrLt9ajNF9i5yn_bOYuGGt42KH1GB4w" alt="Samsung Galaxy Z Flip6 5G">
+                    <h3>Samsung Galaxy Z Flip6 5G (Mint, 12GB RAM, 256GB Storage)</h3>
+                    <p class="description">A stylish, foldable smartphone packed with features.</p>
+                    <h4>Price Comparison</h4>
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Store</th>
+                                <th>Price</th>
+                                <th>Link</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Amazon</td>
+                                <td>₹1,09,988</td>
+                                <td><a href="https://www.amazon.com">View on Amazon</a></td>
+                            </tr>
+                            <tr>
+                                <td>Flipkart</td>
+                                <td>₹98,999</td>
+                                <td><a href="https://www.flipkart.com">View on Flipkart</a></td>
+                            </tr>
+                            <tr>
+                                <td>Samsung</td>
+                                <td>₹99,999</td>
+                                <td><a href="https://www.samsung.com">View on Samsung</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+              
+
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
